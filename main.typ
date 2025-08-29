@@ -14,14 +14,15 @@
     phone: "(+90) 506 124 04 68",
     github: "EralpCelebi",
     linkedin: "eralp-çelebi-5bb731194",
-    address: "Eyüp Sultan Blv. Hersek Sit. No:42/3",
+    address: "Karadolap Mah. İkbal Alt Sk. No:14/34 Eyüp/İstanbul",
     positions: (
       "Electrical-Electronics Eng. Student",
     ),
   ),
-  font: "Iosevka Curly",
+  font: "FantasqueSansM Nerd Font Mono",
+  header-font: "FantasqueSansM Nerd Font Mono",
   accent-color: rgb("#d44747"),
-  profile-picture: none,
+  profile-picture: image("profile.jpeg"),
   date: datetime.today().display(),
   paper-size: "a4",
 )
@@ -49,10 +50,10 @@
 #v(0.3cm)
 
 #resume-entry(
-  title: "Tomas Bata University",
+  title: "Tomáš Bata University",
   location: "Czechia, Zlín",
   description: "Erasmus+ Exchange Student",
-  date: "September 2023",
+  date: "January 2025",
 )
 
 #v(0.3cm)
@@ -72,44 +73,37 @@
 
 #v(0.3cm)
 
-= Certificates
-#resume-certification("SQL and PostgreSQL: The Complete Developer's Guide", "May 2025")
-
-#v(0.3cm)
-
-#resume-certification("MATLAB Onramp", "January 2024")
-
-#v(0.3cm)
-
 = Skills
-#resume-skill-item("Languages", ("Turkish (Native Speaker)", "English (C1)", "German (Entry)", "Czech (Entry)"))
-#resume-skill-item("Programming Languages", ("C", "C++", "Rust", "Golang", "Python", "Kotlin", "Typescript", "SQL"))
+#resume-skill-item("Languages", ("Turkish (Native)", "English (Professional)", "Czech (Entry)"))
+#resume-skill-item("CAD Software", ("KiCAD", "Altium(Entry)"))
+#resume-skill-item("Programming Languages", ("C", "Rust", "Golang", "Typescript"))
 
 #v(0.3cm)
 
-= Contests
-#resume-entry(
-  title: "CodeFest",
-  description: [Contester in the annual festival hosted by the _Üsküdar American High School_.],
-  location: "Turkey, Istanbul",
-  date: "2019",
-)
+//
+// = Contests
+// #resume-entry(
+//   title: "CodeFest",
+//   description: [Contester in the annual festival hosted by the _Üsküdar American High School_.],
+//   location: "Turkey, Istanbul",
+//   date: "2019",
+// )
 
-#resume-entry(
-  title: "Hisar Coding Summit",
-  description: [Contestor in the annual coding summit hosted by _Hisar Schools_.],
-  location: "Turkey, Istanbul",
-  date: "2019",
-)
+// #resume-entry(
+//   title: "Hisar Coding Summit",
+//   description: [Contestor in the annual coding summit hosted by _Hisar Schools_.],
+//   location: "Turkey, Istanbul",
+//   date: "2019",
+// )
 
-#resume-entry(
-  title: "PiWars Turkey",
-  description: [Contestor in the annual robotics competition hosted by _Hisar Schools_.],
-  location: "Turkey, Istanbul",
-  date: "2019",
-)
-
-#pagebreak()
+// #resume-entry(
+//   title: "PiWars Turkey",
+//   description: [Contestor in the annual robotics competition hosted by _Hisar Schools_.],
+//   location: "Turkey, Istanbul",
+//   date: "2019",
+// )
+//
+// #pagebreak()
 
 = Projects
 
@@ -144,19 +138,31 @@
 
 #v(0.1cm)
 
+#pagebreak()
 
 #resume-entry(
-  title: [Artifical Intelligence Command-line Tool],
-  description: "Software Development",
-  date: "Golang",
-  location: github-link("EralpCelebi/fir"),
+  title: [Factory Automation-Telemetry System],
+  description: "Circuit Design/Embedded Development",
+  date: "Rust, KiCAD",
+  location: "TÜBİTAK 2209-B",
 )
 
 #resume-item[
-  - Uses OpenAI's ChatGPT API's to run mutable commands in local shells according to user specifications, isolated using Linux's container infastructure.
+  - A distributed control and journaling system for factory environments designed with compatibility in mind. Using Cortex-M4 microcontrollers at heart, provides an affordable yet robust experience.
 ]
 
-#v(0.1cm)
+// #resume-entry(
+//   title: [Artifical Intelligence Command-line Tool],
+//   description: "Software Development",
+//   date: "Golang",
+//   location: github-link("EralpCelebi/fir"),
+// )
+
+// #resume-item[
+//   - Uses OpenAI's ChatGPT API's to run mutable commands in local shells according to user specifications, isolated using Linux's container infastructure.
+// ]
+
+// #v(0.1cm)
 
 #resume-entry(
   title: [Linux Containerization Solution],
@@ -207,6 +213,19 @@
 #resume-item[
   - A UN*X-like operating system with a modern build system.
 ]
+
+= Certificates
+#resume-certification("Creating an API server in Rust with Actix, SQLx and JWT", "June 2025")
+
+#v(0.3cm)
+
+#resume-certification("SQL and PostgreSQL: The Complete Developer's Guide", "May 2025")
+
+#v(0.3cm)
+
+#resume-certification("MATLAB Onramp", "January 2024")
+
+#v(0.3cm)
 
 = Experienced In
 #resume-entry(

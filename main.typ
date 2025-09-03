@@ -71,12 +71,26 @@
   - Developed embedded operating systems for the said platform using tools such as *The Yocto Project*, *GNU Make* and using the *C Programming Language*.
 ]
 
+#resume-entry(
+  title: "EasyEDA",
+  description: "Official Certified Campus Ambassador",
+  location: "Turkey, Sakarya",
+  date: "September 2025"
+)
+
+#resume-item[
+  - Introduce students to professional design tools for electronics and PCB development.
+  - Organize workshops and learning opportunities to strengthen practical skills.
+  - Support peers in connecting classroom knowledge with real-world engineering practices.
+  - Foster an innovative and collaborative electronics community on campus.
+]
+
 #v(0.3cm)
 
 = Skills
-#resume-skill-item("Languages", ("Turkish (Native)", "English (Professional)", "Czech (Entry)"))
-#resume-skill-item("CAD Software", ("KiCAD", "Altium(Entry)"))
-#resume-skill-item("Programming Languages", ("C", "Rust", "Golang", "Typescript"))
+#resume-skill-item("Languages", ("Turkish (Native)", "English (Professional)", "Czech (Entry), German (Entry)"))
+#resume-skill-item("CAD Software", ("EasyEDA", "KiCAD", "Altium(Entry)"))
+#resume-skill-item("Programming Languages", ("C", "Rust", "Verilog", "Assembly(x86,ARM)"))
 
 #v(0.3cm)
 
@@ -143,7 +157,7 @@
 #resume-entry(
   title: [Factory Automation-Telemetry System],
   description: "Circuit Design/Embedded Development",
-  date: "Rust, KiCAD",
+  date: "Rust, EasyEDA",
   location: "TÜBİTAK 2209-B",
 )
 

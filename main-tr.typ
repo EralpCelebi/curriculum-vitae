@@ -73,19 +73,33 @@
   - *The Yocto Project*, *GNU Make* ve *C Programlama Dili* gibi araçlar kullanılarak gömülü işletim sistemleri geliştirildi.
 ]
 
+#resume-entry(
+  title: "EasyEDA",
+  description: "Resmi Sertifikali Öğrenci Elçisi",
+  location: "Türkiye, Sakarya",
+  date: "Eylül 2025"
+)
+
+#resume-item[
+  - Öğrencileri profesyonel elektronik ve PCB tasarım araçlarıyla tanıştırma,
+  - Atölyeler ve öğrenme etkinlikleri düzenleyerek pratik becerilerin gelişmesine katkı sağlama,
+  - Teorik ders içeriklerinin mühendislik uygulamalarıyla bütünleşmesine destek olma,
+  - ... Görevlerini üstlendim.
+]
+
 #v(0.3cm)
 
 = Yetenekler
-#resume-skill-item("Diller", ("Türkçe (Ana dil)", "İngilizce (Profesyonel)", "Çekçe (Başlangıç)"))
-#resume-skill-item("CAD Yazılımları", ("KiCAD", "Altium(Başlangıç)"))
-#resume-skill-item("Programlama Dilleri", ("C", "Rust", "Golang", "Typescript"))
+#resume-skill-item("Diller", ("Türkçe (Ana dil)", "İngilizce (Profesyonel)", "Çekçe (Başlangıç)", "Almanca(Başlangıç)"))
+#resume-skill-item("CAD Yazılımları", ("EasyEDA", "KiCAD", "Altium(Başlangıç)"))
+#resume-skill-item("Programlama Dilleri", ("C", "Rust", "Verilog", "Assembly(x86, ARM)"))
 
 #v(0.3cm)
 
 = Projeler
 
 #resume-entry(
-  title: "Mainlining Linux on Android Devices",
+  title: "Android Cihazlarda Linux 'Mainlining'",
   description: "Gömülü Geliştirme",
   date: "aarch64",
   location: github-link("EralpCelebi/linux_*"),
@@ -102,7 +116,7 @@
 #v(0.1cm)
 
 #resume-entry(
-  title: "Porting Downstream Android Drivers to UEFI",
+  title: "Android Sürücülerinin Windows ve UEFI Sistemlerine Portlanması",
   description: "Gömülü Geliştirme",
   date: "aarch64, UEFI",
   location: github-link("EralpCelebi/MU-sm8150pkg"),
@@ -118,7 +132,7 @@
 #resume-entry(
   title: [Fabrika Otomasyon-Telemetri Sistemi],
   description: "Devre Tasarımı / Gömülü Geliştirme",
-  date: "Rust, KiCAD",
+  date: "Rust, EasyEDA",
   location: "TÜBİTAK 2209-B",
 )
 
@@ -127,7 +141,7 @@
 ]
 
 #resume-entry(
-  title: [Linux Containerization Solution],
+  title: [Linux Konteynerleştirme Solüsyonu],
   description: "Yazılım Geliştirme",
   date: "Golang",
   location: github-link("EralpCelebi/spinup"),

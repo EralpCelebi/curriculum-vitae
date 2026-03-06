@@ -1,0 +1,85 @@
+[conf]
+default-lang = "en"
+
+[lang.en]
+Education = "Education"
+University = "Sakarya University"
+University-Degree = "Electrical-Electronics BEng."
+University-Dates = "September 2022 • June 2027"
+University-Exchange = "Tomaš Batá University"
+University-Exchange-Location = "Zlín, Czechia"
+University-Exchange-Program = "Erasmus+ Exchange Student"
+University-Exchange-Dates = "February 2025 • June 2025"
+
+Experience = "Experience"
+Experience-Company-GESK = "GESK Technologies"
+Experience-Company-GESK-Role = "Embedded Systems Engineering Intern"
+Experience-Company-GESK-Dates = "August 2024"
+Experience-Company-GESK-Description-1 = "Developed and deployed custom embedded operating systems tailored specifically for the Raspberry Pi 3 B+ hardware platform by utilizing the Yocto Project and GNU Make to build optimized Linux distributions."
+Experience-Company-GESK-Description-2 = "Enabled low-level communication between the OS and proprietary hardware through the creation and integration of custom Linux kernel modules by developing character drivers in C to interface with custom hardware cards via I2C."
+
+Projects = "Projects"
+
+# Project Details
+Project-Damascus = "Damascus • Boot Loader"
+Project-Damascus-1 = "Architected an x86_64 bootloader in pure Assembly to initialize system hardware and manage CPU transition into protected mode."
+Project-Damascus-2 = "Optimized memory addressing routines to ensure reliable loading of kernel sectors into RAM within BIOS constraints."
+
+Project-Oasys = "OaSYS • Operating System"
+Project-Oasys-1 = "Developed a Unix-like operating system kernel from scratch in C to manage process scheduling and hardware abstraction layers."
+Project-Oasys-2 = "Enhanced system initialization efficiency across diverse hardware configurations by implementing a modern build system and UEFI support."
+
+Academic-Projects = "Academic Projects"
+
+Project-Tubitak-1 = "Designed an ESP32-based distributed control and telemetry system to optimize data collection processes in industrial factory environments."
+Project-Tubitak-2 = "Developed a communication gateway utilizing LoRa for long-range transmission and I2C for interfacing with local hardware sensors."
+Project-Tubitak-3 = "Implemented a wireless network topology to reduce cabling costs and enable real-time monitoring across large-scale industrial facilities."
+
+Skills = "Skills"
+
+Skill-Languages = "Programming Languages"
+Skill-Hardware = "Design Software"
+Skill-Embedded = "Embedded Systems"
+Skill-Software = "Software"
+
+[lang.tr]
+Education = "Eğitim"
+University = "Sakarya Üniversitesi"
+University-Degree = "Elektrik-Elektronik Müh. Lisans Programı"
+University-Dates = "Şubat 2022 • Haziran 2027"
+University-Exchange = "Tomaš Batá Üniversitesi"
+University-Exchange-Location = "Zlín, Çekya"
+University-Exchange-Program = "Erasmus+ Değişim Öğrencisi"
+University-Exchange-Dates = "Şubat 2025 • Haziran 2025"
+
+Experience = "Deneyim"
+Experience-Company-GESK = "GESK Teknoloji"
+Experience-Company-GESK-Role = "Gömülü Sistem Mühendisliği Stajyeri"
+Experience-Company-GESK-Dates = "Ağustos 2024"
+Experience-Company-GESK-Description-1 = "Yocto Project ve GNU Make araçlarıyla optimize edilmiş Linux dağıtımları oluşturarak, Raspberry Pi 3 B+ platformuna özel gömülü işletim sistemleri geliştirdi."
+Experience-Company-GESK-Description-2 = "I2C üzerinden özel donanım kartlarıyla haberleşmek için C dilinde karakter sürücüleri geliştirildi."
+Experience-Company-GESK-Description-3 = "İşletim sistemi ve özel donanım arasında düşük seviyeli iletişimi sağlayan özel Linux çekirdek modülleri oluşturdu ve entegre edildi."
+
+Projects = "Çalışmalar"
+
+# Proje Detayları
+Project-Damascus = "Damascus • Önyükleyici"
+Project-Damascus-1 = "Sistem donanımını başlatan ve işlemciyi korumalı moda geçiren x86_64 mimarili bir önyükleyiciyi tamamen Assembly dilinde mimari edildi."
+Project-Damascus-2 = "BIOS kısıtlamaları dahilinde çekirdek sektörlerinin RAM'e güvenilir şekilde yüklenmesini sağlamak için bellek adresleme rutinleri optimize edildi."
+
+Project-Oasys = "OaSYS • İşletim Sistemi"
+Project-Oasys-1 = "Süreç planlama ve donanım soyutlama katmanlarını yöneten, Unix benzeri bir işletim sistemi çekirdeğini C dilinde sıfırdan geliştirildi."
+Project-Oasys-2 = "Modern bir derleme sistemi ve UEFI desteği ekleyerek sistemin farklı donanım konfigürasyonlarında başlatılma verimliliği arttırıldı."
+
+Academic-Projects = "Akademik Çalışmalar"
+
+Project-Tubitak-1 = "Fabrika ortamlarında veri toplama süreçlerini optimize etmek amacıyla ESP32 tabanlı bir dağıtık kontrol ve telemetri sistemi tasarlandı."
+Project-Tubitak-2 = "Donanım birimleriyle I2C üzerinden haberleşen ve verileri uzak mesafelere iletmek için LoRa protokolünü kullanan bir haberleşme köprüsü(gateway) geliştirildi."
+Project-Tubitak-3 = "Kablosuz ağ topolojisini uygulayarak kablolama maliyetleri düşürüldü ve geniş ölçekli endüstriyel alanlarda gerçek zamanlı veri takibini mümkün kılındı."
+
+Skills = "Beceriler"
+
+Skill-Languages = "Programlama Dilleri"
+Skill-Hardware = "Tasarım Programları"
+Skill-Embedded = "Gömülü Sistemler"
+Skill-Software = "Yazılım"

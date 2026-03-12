@@ -4,7 +4,9 @@
 #let Language-Strings = toml("Languages.toml")
 #set-database(Language-Strings)
 
-#let Language = "tr"
+#let Target = sys.inputs.target
+
+#let Language = Target
 #set text(lang: Language)
 
 
@@ -106,7 +108,7 @@
 - #linguify("Project-Damascus-2")
 
 ==  #linguify("Skills")
-- *#linguify("Skill-Languages"):* C, C++, Rust, Go, Assembly (x86_64, AArch64),
-  Python, MATLAB
-- *#linguify("Skill-Hardware"):* KiCAD, EasyEDA 
+- *#linguify("Skill-Languages"):* C, Rust, Go, Assembly (x86_64, AArch64),
+  Python, Julia, MATLAB
+- *#linguify("Skill-Hardware"):* KiCAD, SPICE
 - *#linguify("Skill-Software"):* Git, Docker, GNU Make, CMake, LLVM, GDB
